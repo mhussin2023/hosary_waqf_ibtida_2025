@@ -167,7 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
         key: ValueKey(_counter),
         resizeDuration: null,
         onDismissed: (DismissDirection direction) {
-          if (direction == DismissDirection.endToStart) {
+          if (direction == DismissDirection.startToEnd) {
             _incrementCounter();
           } else {
             _decrementCounter();
